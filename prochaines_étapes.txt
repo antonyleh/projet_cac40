@@ -1,0 +1,29 @@
+2. Exploration statistique
+
+Vérifier distributions des features (histogrammes, boxplots).
+
+Vérifier corrélations (heatmap).
+
+Vérifier s’il y a des outliers (scatterplots, z-scores).
+
+Décider si certaines features sont inutiles (fortement corrélées, bruit).
+
+****Interpreter et tout les résulatats d'EDA et agir en fonction
+
+3. Clustering non supervisé
+
+Appliquer K-Means (avec k choisi via silhouette, distortion curve).
+
+Appliquer Spectral Clustering (sur base des similarités entre actions).
+
+Comparer avec BIC/ICL si on veut tester des modèles gaussiens (GMM).
+
+ Output attendu : clustering des 40 actions CAC40 en “profils de risque”.
+
+4. Supervisé (classification)
+
+Construire des labels à prédire (ex : “quartile de risque”, ou “sector”).
+
+Tester LDA vs QDA (limites linéaires vs quadratiques).
+
+Visualiser frontières de décision sur projections PCA.

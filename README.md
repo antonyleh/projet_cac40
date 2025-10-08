@@ -1,6 +1,6 @@
 # Objet : Projet ML Finance – Clustering Spectral & Analyse Discriminante (15 actions CAC40)
 
-Nous avons choisi comme projet un jeu de données réel issu du domaine financier : nous travaillons sur **15 actions du CAC 40** sur une période de plusieurs années (prix journaliers).
+Nous avons choisi comme projet un jeu de données réel issu du domaine financier : nous travaillons sur **actions du CAC 40** sur une période de plusieurs années (prix journaliers).
 
 L’objectif est de mettre en œuvre, sur ces données, les méthodes de clustering non supervisé et de classification supervisée vues en cours, en suivant la logique suivante :
 
